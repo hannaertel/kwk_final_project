@@ -2,7 +2,7 @@ require 'bundler'
 Bundler.require
 require './config/environment'
 require './app/models/sample_model'
-require './app/models/string'
+
 
 
 class ApplicationController < Sinatra::Base
